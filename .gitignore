@@ -1,0 +1,15 @@
+# Python and environment
+__pycache__/
+.venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+# Created when the notebooks and the pipeline run
+/artifacts/
+mlflow-state/
+models/model/
+# Model weights never go into Git
+*.pth
+# Data downloaded from the object store (the *.dvc receipts must stay in Git)
+data/images/raw/
+data/test/*.jpg
