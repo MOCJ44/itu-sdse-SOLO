@@ -2,8 +2,9 @@ module daggerpipeline
 
 go 1.26.1
 
+require dagger.io/dagger v0.21.11
+
 require (
-	dagger.io/dagger v0.21.11 // indirect
 	github.com/99designs/gqlgen v0.17.89 // indirect
 	github.com/Khan/genqlient v0.8.1 // indirect
 	github.com/adrg/xdg v0.5.3 // indirect
